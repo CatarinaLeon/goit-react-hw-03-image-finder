@@ -34,12 +34,12 @@ class App extends Component {
           currentPage: prevState.currentPage + 1,
         }))
       )
-      .then(() => {
-        window.scrollTo({
-          top: document.documentElement.scrollHeight,
-          behavior: "smooth",
-        });
-      })
+      // .then(() => {
+      //   window.scrollTo({
+      //     top: document.documentElement.scrollHeight,
+      //     behavior: "smooth",
+      //   });
+      // })
       .catch((error) => this.setState({ error }))
       .finally(() => this.setState({ loading: false }));
   };
