@@ -1,4 +1,4 @@
-const BASE_URL = "https://pixabay.com/api/";
+const BASE_URL = "https://pixabay.com/api";
 const KEY = "24464531-810b90441dc32988cf7404dfc";
 const PER_PAGE = 12;
 
